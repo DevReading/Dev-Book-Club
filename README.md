@@ -11,7 +11,7 @@
 
 | 주차 | leoo | 상원 | 도윤 | 정수 | 
 | --- | --- | --------- | --- | --- |
-| 1주차 | [DDD start! 1주차](https://github.com/oh-when/dedongyeo-map-backend/blob/main/README.md) | 객체지향의 사실과 오해  |  |  |
+| 1주차 | [DDD start! 1주차](https://github.com/oh-when/dedongyeo-map-backend/blob/main/README.md) | 객체지향의 사실과 오해  |  | [Advaned Swift 1주차](정수/Advanced%20Swift/2.%20Built-In%20Collections.md) |
 | 2주차 |  |  | |  | 
 | 3주차 |  |  | |  | 
 | 4주차 |  |  | |  | 
