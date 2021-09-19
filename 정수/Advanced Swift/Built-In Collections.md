@@ -234,3 +234,58 @@ extension Array {
 
 <br>
 
+## Dictionaries
+
+<br>
+
+이번에는 주요 자료구조중 하나인 Dictionary에 대해 알아보도록 하겠습니다.
+
+Dictionary는 key와 이에 대응되는 value 값을 쌍으로 갖습니다.
+
+key는 중복을 허용하지 않으며 key를 기반으로 value를 가져오는데에는 평균작으로 상수시간(O(1))이 소요됩니다.
+
+Dictionary는 배열과는 달리 원소들이 정렬 되어있지 않습니다.
+
+Dictionary를 이용하여 임의의 화면 셋팅값을 정의해보도록 하겠습니다.
+
+```swift
+enum Setting {
+    case text(String)
+    case int(Int)
+    case bool(Bool)
+}
+
+let defaultSettings: [String: String] = [
+    "Airplane Mode": .bool(false),
+    "Name": .text("My iPhone")
+]
+
+
+defaultSettings["Name"]     // Optional(Setting.text("My iPhone"))
+```
+
+딕셔너리의 검색은 키 값이 존재하지 않을 경우 `nil` 값을 반환하기 때문에 optional 타입을 반환합니다. 
+
+Array였다면 개발자의 실수로 OOB로 인한 크래쉬가 발생할 위험을 딕셔너리는 위와 같이 안전하게 처리합니다.
+
+<br>
+
+### Hashable Requirement
+---
+
+딕셔너리는 **해시테이블** 구조 입니다.
+
+딕셔너리에 `key`의 해시값을 기반으로 위치를 분별하여 데이터를 저장합니다.
+
+Swift 표준 라이브러리 내 기본적인 데이터 타입(ex: String, Int, Float, Bool...etc)들은 기본적으로 모두 `Hashable` 프로토콜을 채택하고 있으며 이는 딕셔너리의 `key` 값으로 사용이 가능합니다.
+
+이것이 딕셔너리의 `key` 가 `Hashable` 프로토콜을 채택해야 하는 이유입니다.
+
+만일 사용자가 정의한 데이터 타입을 딕셔너리의 `key`로 사용하고 싶다면, 반드시 해당 타입이 `Hashable` 프로토콜을 준수하도록 해야합니다.
+
+`Hashable` 프로토콜은 `Equatable` 프로토콜을 준수하며 `hashValue`를 구현하는것을 강제합니다.
+
+`Equatable` 프로토콜을 준수함으로써 사용자 정의 타입에 `==` 연산을 오버로드하여 동일한 해시값을 갖는지를 분별할 수 있도록 합니다.
+
+<br>
+
