@@ -9,10 +9,11 @@
 - 기술 관련한 궁금증이나 공유하고 싶은 내용은 언제든지 이슈로 등록하여 함께 생각해봅시다.
 
 ## 스터디원 
-- 민욱
-- 상원
-- 도윤
-- 정수
+<img src="https://avatars.githubusercontent.com/u/37536298?v=4" width=100> | <img src="https://avatars.githubusercontent.com/u/37393736?v=4" width=100> | <img src="https://avatars.githubusercontent.com/u/46062199?v=4" width=100> | <img src="https://avatars.githubusercontent.com/u/33051018?v=4" width=100> |
+:---: | :---: | :---: | :---: |
+민욱([@minkj1992](https://github.com/minkj1992)) | 상원([@vincentj2](https://github.com/vincentj2)) | 도윤([@Doyuni](https://github.com/Doyuni)) | 정수([@yeojaeng](https://github.com/yeojaeng)) |
+
+
 
 ## 독서 및 학습 기록
 
