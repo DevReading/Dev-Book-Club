@@ -19,5 +19,5 @@
 
 | 민욱 | 상원 | 도윤 | 정수 | 
 | --- | --------- | --- | --- |
-| <ul><li>[x] [pytest](https://github.com/minkj1992/Python/blob/master/pytest)</li><li>[x] [wsgi](https://github.com/minkj1992/Python/blob/master/wsgi.md)</li><li>[ ] pytest-bdd</li><li>[ ] DDD START!</li></ul>| [Effective Java](https://github.com/DevReading/Dev-Book-Club/tree/main/%EC%83%81%EC%9B%90/Effective%20Java)  | Designing Data-Intensive Applications | [Advaned Swift](정수/Advanced%20Swift/2.%20Built-In%20Collections.md) |
-| | [DDD START!](https://github.com/Today-I-Learn/dev-reading-record/tree/main/DDD%20Start!) | |
+| <ul><li>[pytest](https://github.com/minkj1992/Python/blob/master/pytest)</li><li>[wsgi](https://github.com/minkj1992/Python/blob/master/wsgi.md)</li><li>pytest-bdd</li></ul>| [Effective Java](https://github.com/DevReading/Dev-Book-Club/tree/main/%EC%83%81%EC%9B%90/Effective%20Java)  | Designing Data-Intensive Applications | [Advaned Swift](정수/Advanced%20Swift/2.%20Built-In%20Collections.md) |
+| <ul><li>[오브젝트](./leoo/오브젝트.md)</li><li>DDD START!</li></ul> | [DDD START!](https://github.com/Today-I-Learn/dev-reading-record/tree/main/DDD%20Start!) | |
