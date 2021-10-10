@@ -6,7 +6,7 @@
 
 <br>
 
-### 목록  <img src="https://img.shields.io/badge/-49/90-gray"><br>
+### 목록  <img src="https://img.shields.io/badge/-51/90-gray"><br>
 #### [이전 진행 내용](https://github.com/Today-I-Learn/lazy-effective-java)
 #### 2장 객체 생성과 파괴
 - [X] 아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
@@ -16,8 +16,8 @@
 - [X] 아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
 - [X] 아이템 6. 불필요한 객체 생성을 피하라
 - [X] 아이템 7. 다 쓴 객체 참조를 해제하라
-- [ ] 아이템 8. finalizer와 cleaner 사용을 피하라
-- [ ] 아이템 9. try-finally보다는 try-with-resources를 사용하라
+- [X] 아이템 8. finalizer와 cleaner 사용을 피하라
+- [X] 아이템 9. try-finally보다는 try-with-resources를 사용하라
 
 <br>
 
